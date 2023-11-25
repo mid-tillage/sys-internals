@@ -1,3 +1,7 @@
+Example projects: 
+- https://github.com/sys-internals/sys-internals/blob/main/store-project.md 
+
+----
 - 👋 Hi, I’m @sys-internals
 - 👀 I’m interested in learning about AI!
 - 🌱 I’m currently learning PyTorch
