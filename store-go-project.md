@@ -1,4 +1,4 @@
-# Engine example
+# Store Example
 ## General description
 Type: Proof of Concept
 
