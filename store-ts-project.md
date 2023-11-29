@@ -2,6 +2,7 @@
 
 ## General description
 Type: Proof of Concept
+
 Key Components:
 - Consumer Section: web page, web service and non-relational database for efficient data storage.
 - Administration Section: web page, web service, and relational database integrated to a transaction processor using a microservices architecture (operations orchestrator for streamlined operations).
