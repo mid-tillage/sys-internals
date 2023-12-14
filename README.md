@@ -1,6 +1,7 @@
 Example projects: 
 - https://github.com/sys-internals/sys-internals/blob/main/store-ts-project.md
 - https://github.com/sys-internals/sys-internals/blob/main/store-go-project.md
+- https://github.com/sys-internals/sys-internals/blob/main/store-rust-project.md
 
 ----
 - 👋 Hi, I’m @sys-internals
