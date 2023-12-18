@@ -10,7 +10,7 @@ Key Components:
 - Administration Section: web page, web service, and relational database integrated to a transaction processor using a microservices architecture (operations orchestrator for streamlined operations).
 
 ## Solution diagram
-![store-example drawio](https://github.com/sys-internals/sys-internals/assets/142703856/8c33e6f2-18e2-4241-bc99-e92c1ce0cc2a)
+![store-example drawio](https://github.com/mid-tillage/sys-internals/assets/142703856/8c33e6f2-18e2-4241-bc99-e92c1ce0cc2a)
  
 ## Technologies Utilized
 - Front-end: Angular
@@ -23,8 +23,8 @@ Key Components:
 - ~~Data Mining: Apache Spark~~
 
 ## Repositories:
-- https://github.com/sys-internals/store-customer-web
-- https://github.com/sys-internals/store-admin-web
-- https://github.com/sys-internals/example-engine-go
+- https://github.com/mid-tillage/store-customer-web
+- https://github.com/mid-tillage/store-admin-web
+- https://github.com/mid-tillage/example-engine-go
 - Ongoing
 
