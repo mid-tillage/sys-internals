@@ -1,8 +1,8 @@
 Example projects: 
-- https://github.com/sys-internals/sys-internals/blob/main/store-ts-project.md
-- https://github.com/sys-internals/sys-internals/blob/main/store-go-project.md
-- https://github.com/sys-internals/sys-internals/blob/main/store-rust-project.md
-- https://github.com/sys-internals/nestjs-metrics (Prometheus and Grafana)
+- https://github.com/mid-tillage/sys-internals/blob/main/store-ts-project.md
+- https://github.com/mid-tillage/sys-internals/blob/main/store-go-project.md
+- https://github.com/mid-tillage/sys-internals/blob/main/store-rust-project.md
+- https://github.com/mid-tillage/nestjs-metrics (Prometheus and Grafana)
 
 ----
 - 👋 Hi, I’m @mid-tillage
