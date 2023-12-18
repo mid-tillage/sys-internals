@@ -5,7 +5,7 @@ Example projects:
 - https://github.com/sys-internals/nestjs-metrics (Prometheus and Grafana)
 
 ----
-- 👋 Hi, I’m @sys-internals
+- 👋 Hi, I’m @mid-tillage
 - 👀 I’m interested in learning about AI!
 - 🌱 I’m currently learning PyTorch
 - 💞️ I’m not looking to collaborate on any project at the moment.
