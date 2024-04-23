@@ -2,6 +2,7 @@ Example projects:
 - https://github.com/mid-tillage/sys-internals/blob/main/store-ts-project.md
 - https://github.com/mid-tillage/sys-internals/blob/main/store-go-project.md
 - https://github.com/mid-tillage/sys-internals/blob/main/store-rust-project.md
+- https://github.com/mid-tillage/sys-internals/blob/main/store-java-project.md
 - https://github.com/mid-tillage/nestjs-metrics (Prometheus and Grafana)
 
 ----
