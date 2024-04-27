@@ -24,7 +24,15 @@ Key Components:
 
 ## Repositories:
 - https://github.com/mid-tillage/store-customer-web
+- ~~https://github.com/mid-tillage/store-customer-go-ws~~
 - https://github.com/mid-tillage/store-admin-web
-- https://github.com/mid-tillage/example-engine-go
-- Ongoing
+- https://github.com/mid-tillage/store-admin-go-ws
+- https://github.com/mid-tillage/store-engine-orchestrator-queue-go-ms (producer)
+- https://github.com/mid-tillage/store-sales-worker-go-ms (consumer)
+- ~~https://github.com/mid-tillage/store-engine-orchestrator-go-ms~~
+- ~~https://github.com/mid-tillage/store-engine-dto-validator-go-ms~~
+- ~~https://github.com/mid-tillage/store-engine-dto-to-model-go-ms~~
+- ~~https://github.com/mid-tillage/store-engine-persistence-go-ms~~
+- ~~https://github.com/mid-tillage/store-engine-eshop-product-loader-go-ms~~
+
 
