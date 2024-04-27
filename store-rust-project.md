@@ -23,8 +23,13 @@ Key Components:
 
 ## Repositories:
 - https://github.com/mid-tillage/store-customer-web
-- https://github.com/mid-tillage/store-customer-ws
-- https://github.com/mid-tillage/store-admin-web
-- https://github.com/mid-tillage/store-admin-ws
 - https://github.com/mid-tillage/store-customer-rust-ws
-- Ongoing...
+- https://github.com/mid-tillage/store-admin-web
+- ~~https://github.com/mid-tillage/store-admin-rust-ws~~
+- ~~https://github.com/mid-tillage/store-engine-orchestrator-queue-rust-ms~~ (producer)
+- ~~https://github.com/mid-tillage/store-sales-worker-rust-ms~~ (consumer)
+- ~~https://github.com/mid-tillage/store-engine-orchestrator-rust-ms~~
+- ~~https://github.com/mid-tillage/store-engine-dto-validator-rust-ms~~
+- ~~https://github.com/mid-tillage/store-engine-dto-to-model-rust-ms~~
+- ~~https://github.com/mid-tillage/store-engine-persistence-rust-ms~~
+- ~~https://github.com/mid-tillage/store-engine-eshop-product-loader-rust-ms~~
