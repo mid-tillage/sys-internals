@@ -28,6 +28,8 @@ Key Components:
 - ~~https://github.com/mid-tillage/store-customer-java-ws~~
 - https://github.com/mid-tillage/store-admin-web
 - https://github.com/mid-tillage/store-admin-java-ws
+- ~~https://github.com/mid-tillage/store-engine-orchestrator-queue-java-ms~~ (producer)
+- ~~https://github.com/mid-tillage/store-sales-worker-java-ms~~ (consumer)
 - ~~https://github.com/mid-tillage/store-engine-orchestrator-java-ms~~
 - ~~https://github.com/mid-tillage/store-engine-dto-validator-java-ms~~
 - ~~https://github.com/mid-tillage/store-engine-dto-to-model-java-ms~~
