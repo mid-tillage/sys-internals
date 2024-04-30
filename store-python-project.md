@@ -26,7 +26,7 @@ Key Components:
 ## Repositories:
 
 - https://github.com/mid-tillage/store-customer-web
-- ~~https://github.com/mid-tillage/store_customer_py_ws~~
+- https://github.com/mid-tillage/store_customer_py_ws
 - https://github.com/mid-tillage/store_admin_web
 - https://github.com/mid-tillage/store_admin_py_ws
 - ~~https://github.com/mid-tillage/store_engine_orchestrator_queue_py_ms~~ (producer)
