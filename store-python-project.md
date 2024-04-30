@@ -15,7 +15,7 @@ Key Components:
 
 ## Technologies Utilized
 - Front-end: Angular
-- Back-end: Python, Django
+- Back-end: Python, Django, Flask
 - Databases: MongoDB, PostgreSQL
 - Containerization: Docker
 - Orchestration: Kubernetes
@@ -26,13 +26,13 @@ Key Components:
 ## Repositories:
 
 - https://github.com/mid-tillage/store-customer-web
-- ~~https://github.com/mid-tillage/store-customer-py-ws~~
-- https://github.com/mid-tillage/store-admin-web
-- https://github.com/mid-tillage/store-admin-py-ws
-- ~~https://github.com/mid-tillage/store-engine-orchestrator-queue-py-ms~~ (producer)
-- ~~https://github.com/mid-tillage/store-sales-worker-py-ms~~ (consumer)
-- ~~https://github.com/mid-tillage/store-engine-orchestrator-py-ms~~
-- ~~https://github.com/mid-tillage/store-engine-dto-validator-py-ms~~
-- ~~https://github.com/mid-tillage/store-engine-dto-to-model-py-ms~~
-- ~~https://github.com/mid-tillage/store-engine-persistence-py-ms~~
-- ~~https://github.com/mid-tillage/store-engine-eshop-product-loader-py-ms~~
+- ~~https://github.com/mid-tillage/store_customer_py_ws~~
+- https://github.com/mid-tillage/store_admin_web
+- https://github.com/mid-tillage/store_admin_py_ws
+- ~~https://github.com/mid-tillage/store_engine_orchestrator_queue_py_ms~~ (producer)
+- ~~https://github.com/mid-tillage/store_sales_worker_py_ms~~ (consumer)
+- ~~https://github.com/mid-tillage/store_engine_orchestrator_py_ms~~
+- ~~https://github.com/mid-tillage/store_engine_dto_validator_py_ms~~
+- ~~https://github.com/mid-tillage/store_engine_dto_to_model_py_ms~~
+- ~~https://github.com/mid-tillage/store_engine_persistence_py_ms~~
+- ~~https://github.com/mid-tillage/store_engine_eshop_product_loader_py_ms~~
