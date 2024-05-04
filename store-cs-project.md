@@ -26,7 +26,7 @@ Key Components:
 - https://github.com/mid-tillage/store-customer-web
 - ~~https://github.com/mid-tillage/store-customer-cs-ws~~
 - https://github.com/mid-tillage/store-admin-web
-- https://github.com/mid-tillage/store-admin-go-ws
+- https://github.com/mid-tillage/store-admin-cs-ws
 - ~~https://github.com/mid-tillage/store-engine-orchestrator-queue-cs-ms (producer)~~
 - ~~https://github.com/mid-tillage/store-sales-worker-cs-ms (consumer)~~
 - ~~https://github.com/mid-tillage/store-engine-orchestrator-cs-ms~~
