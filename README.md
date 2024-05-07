@@ -11,9 +11,10 @@ In different Languages: [C#](https://github.com/mid-tillage/sys-internals/blob/m
 
 Monitoring: [Prometheus and Grafana](https://github.com/mid-tillage/nestjs-metrics)
 
-## ML/AI Exercises
+## ML/AI
 Code of online tutorial exercises.
-[Python](https://github.com/mid-tillage/sys-internals/blob/main/ml-ai-exercises.md)
+
+[Concepts, frameworks and libraries (Python)](https://github.com/mid-tillage/sys-internals/blob/main/ml-ai-exercises.md)
 
 <!---
 sys-internals/sys-internals is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
