@@ -39,6 +39,7 @@ One morning, the security team detects unusual activity within their systems. Fu
 
 In this task, we examine the vulnerabilities and findings in Google Cloud Security Command Center to determine how the attackers gained access to the data, and which remediation steps to take.
 
+Security Command Center - PCI DSS report:
 ![08 - PCI DSS Report](https://github.com/user-attachments/assets/e75e3392-e92a-43e0-affa-63d41609faba)
 
 As we examine the PCI DSS 3.2.1 report, notice that it lists the rules that are non-compliant, which relate to the data breach:
@@ -74,6 +75,7 @@ The following table pairs the rules listed in the report with their correspondin
 
 **Next**, navigate to the Security Command Center, and filter the findings for further examination and analysis of the vulnerabilities in the Google Cloud environment.
 
+Security Command Center - Findings:
 ![18 - Filter - Compute instance and Storage bucket](https://github.com/user-attachments/assets/c02f2a57-f17c-4cfb-8fee-556ea539ff20)
 
 The following active findings pertaining to the storage bucket should be listed:
@@ -94,8 +96,7 @@ These findings indicate the virtual machine was configured in a way that left it
 - Secure boot enabled
 - Public IP address set to None
 
------
-
+Security Command Center - Findings - Vulnerabilities associated to Google Compute Firewall:
 ![19 - Filter - Compute firewall](https://github.com/user-attachments/assets/270cfa08-d4e7-4e86-a52e-2cca5061589b)
 
 The following active findings should be listed that pertain to the firewall:
@@ -107,44 +108,59 @@ The following active findings should be listed that pertain to the firewall:
 ## Task 2. Fix the Compute Engine vulnerabilities
 In this task, you'll shut down the vulnerable VM cc-app-01, and create a new VM from a snapshot taken before the malware infection. VM snapshots are effective in restoring the system to a clean state, and ensures that the new VM will not be infected with the same malware that compromised the original VM.
 
-
+Compute Engine - VM Instances Dashboard:
 ![20 - Compute Engine VM Instances cc-app-01](https://github.com/user-attachments/assets/17d4076b-1d85-4a21-802e-c59ce0525498)
 
+### Infected VM Stop
+Compute Engine - VM Instances Dashboard - Stopping infected VM:
 ![22 - Compute Engine VM Instances cc-app-01 - Stop action](https://github.com/user-attachments/assets/fc760b62-2af8-4683-be16-ea388917c2ea)
 
+Compute Engine - VM Instances Dashboard - Stop confirmation:
 ![23 - Compute Engine VM Instances cc-app-01 - Stop confirmation](https://github.com/user-attachments/assets/361bdabb-8090-4fed-afca-f102b8fe2665)
 
----
-
+### New VM Creation
+Compute Engine - New VM Instance - Configuration - VM Name, Region and Zone, and Machine type:
 ![24 - Compute Engine VM Instances cc-app-02 - Snapshot creation](https://github.com/user-attachments/assets/fa9ea463-2442-417e-8034-ed86f5e562e5)
 
+Compute Engine - New VM Instance - Configuration - Machine configuration policies:
 ![25 - Compute Engine VM Instances cc-app-02 - Snapshot creation](https://github.com/user-attachments/assets/8e3bded4-52d8-4127-9177-84444a9594e3)
 
+Compute Engine - New VM Instance - Configuration - Boot Disk:
 ![26 - Compute Engine VM Instances cc-app-02 - Snapshot creation - Snapshot  source selection](https://github.com/user-attachments/assets/45ced93a-255f-451d-b03b-d8f012972676)
 
+Compute Engine - New VM Instance - Configuration - Identity API access:
 ![27 - Compute Engine VM Instances cc-app-02 - Snapshot creation - Service Account configuration](https://github.com/user-attachments/assets/af8b2831-5a7d-4e3b-8dac-925111733db7)
 
+Compute Engine - New VM Instance - Configuration - Networking:
 ![28 - Compute Engine VM Instances cc-app-02 - Networking configuration](https://github.com/user-attachments/assets/76732603-be09-43a9-b96b-26e6f74b5998)
 
+Compute Engine - New VM Instance - Configuration - Networking - Network interfaces:
 ![29 - Compute Engine VM Instances cc-app-02 - Networking configuration](https://github.com/user-attachments/assets/695c6e45-421a-4358-93ac-8d22798150bf)
 
-
 The new VM cc-app-02 should now be created from the cc-app01-snapshot. (It may take a few minutes for the new VM to be created.)
-
+    
+Compute Engine - VM Instances dashboard:
 ![30 -  Compute Engine VM Instances cc-app-02 - Instance created](https://github.com/user-attachments/assets/a8c83b14-10d9-4db8-9423-974e92fb1282)
 
-
+### Secure Boot Enable
 Now, turn Secure Boot on for the new VM cc-app-02 to address the Secure Boot disabled finding.
 
+Compute Engine - VM Instances - Edit cc-app-02 - Security and access:
 ![34 - Compute Engine VM Instances cc-app-02 - Secure Boot configuration](https://github.com/user-attachments/assets/3b7edeb7-ea88-4e80-8e21-1da2fe42c2cd)
 
 The cc-app-02 VM instance will restart and the Secure Boot disabled finding will be remediated.
 
+### Restart new VM cc-app-02:
+Compute Engine - VM Instances - Start/Resume cc-app-02 instance:
 ![35 - Compute Engine VM Instances cc-app-02 - Instance restart](https://github.com/user-attachments/assets/b1491d4b-7bfa-40f5-9870-3bdad63cfe57)
+
+Compute Engine - VM Instances - cc-app-02 instance running confirmation:
 ![36 - Compute Engine VM Instances cc-app-02 - Instance restart](https://github.com/user-attachments/assets/089f0d43-2709-4025-8079-104837004c3e)
 
+### Compromised VM Deletion
 Delete the compromised VM cc-app-01.
 
+Compute Engine - VM Instances - cc-app-01 instance deletion confirmation:
 ![37 - Compute Engine VM Instances cc-app-01 - Instance deletion](https://github.com/user-attachments/assets/33464faa-c299-4650-a8fd-a45a23cb2408)
 
 By following these steps, you have effectively created a new VM from the snapshot, ensuring it is free from malware and misconfigurations. You also deleted the compromised VM, eliminating the source of the security breach.
@@ -152,9 +168,31 @@ By following these steps, you have effectively created a new VM from the snapsho
 ## Task 3. Fix Cloud Storage bucket permissions
 In this task, you'll revoke public access to the storage bucket and switch to uniform bucket-level access control, significantly reducing the risk of data breaches. By removing all user permissions from the storage bucket, you can prevent unauthorized access to the data stored within.
 
+### Cloud Storage - Bucket Overview
+Cloud Storage - Buckets dashboard:
+![38 - Cloud Storage](https://github.com/user-attachments/assets/33257199-cc4a-431b-ba54-3c0be7476c71)
+
+Cloud Storage - Buckets - Bucket details:
+![39 - Cloud Storage - Bucket](https://github.com/user-attachments/assets/25e33a6a-8cb8-4fe2-b4d1-ddb82981bd24)
+
 You'll note there is a myfile.csv file in the publicly accessible bucket. This is the file that contains the sensitive information that was dumped by the malicious actor. Perform the following steps to address the Public bucket ACL finding.
 
 **Modify storage bucket access:** Switch the access control to uniform and remove permissions for the allUsers principals from the storage bucket to enforce a single set of permissions for the bucket and its objects. You'll also need to ensure that users who rely on basic project roles to access the bucket won't lose their access.
+
+### Pevent Public Access
+Cloud Storage - Bucket - Disable Public Access confirmation dialog:
+![42 - Cloud Storage - Bucket - Prevent Public Access](https://github.com/user-attachments/assets/adaed1b4-97ab-42d6-b76f-bc5fd987f679)
+
+Cloud Storage - Bucket - Successful Public Access Policy disabled notification:
+![43 - Cloud Storage - Bucket - Prevent Public Access - Confirmation](https://github.com/user-attachments/assets/809b2b94-9ad8-4669-9093-2a91985f0bf6)
+
+### Set Uniform Access Control
+Cloud Storage - Bucket - Access Control Edit form:
+![46 - Cloud Storage - Bucket - Uniform Access Control](https://github.com/user-attachments/assets/8b3cfd94-7f12-4126-8818-ef43a8008c98)
+
+### Remove All-Users Permissions
+Removing All-Users permissions:
+![47 - Cloud Storage - Bucket -  Policy - All User  Permission Removal](https://github.com/user-attachments/assets/a1fa3491-624b-498c-a2c5-059a26734f77)
 
 By following these steps, you have effectively prevented public access to the bucket, switched to uniform bucket-level access control, and removed all user permissions, addressing the Public bucket ACL, Bucket policy only disabled, and Bucket logging disabled findings.
 
@@ -166,23 +204,39 @@ Exercise extreme caution before modifying overly permissive firewall rules. The 
 ### Restrict SSH access
 Create a new firewall rule. This rule must restrict SSH access to only authorized IP addresses from the source network 35.235.240.0/20 to compute instances with the target tag cc.
 
+Network Security - Firewall Policies - VPC Firewall Rules - New Firewall Rule summary:
+![55 - Firewall - New Firewall Rule](https://github.com/user-attachments/assets/fcbd3be0-10d3-4ded-85bc-4001315dd046)
+
+Network Security - Firewall Policies - VPC Firewall Rules - New Firewall Rule creation notification:
+![56 - Firewall - New Firewall Rule](https://github.com/user-attachments/assets/8c8ca76f-84e6-4bcf-a439-9f012637ba3e)
+
 ## Task 5. Fix the firewall configuration
 In this task, you'll delete three specific VPC firewall rules that are responsible for allowing unrestricted access to certain network protocols, namely ICMP, RDP, and SSH, from any source within the VPC network. Then, you'll enable logging on the remaining firewall rules.
 
 ### Customize firewall rules
 Delete the default-allow-icmp, default-allow-rdp, and default-allow-ssh firewall rules. These rules are overly broad and by deleting them, you'll allow for a more secure and controlled network environment.
 
+Network Security - Firewall Policies - VPC Firewall Rules - Rule default-allow-ssh deletion dialog:
+![57 - Firewall Rules - Delete default-allow-ssh](https://github.com/user-attachments/assets/94212e24-fe41-46aa-b8a7-0104bbacd69e)
+
+Network Security - Firewall Policies - VPC Firewall Rules - Rule list panel after default-allow-icmp, default-allow-rdp, and default-allow-ssh firewall rules deletion:
+![59 - Firewall Rules - After Deletion](https://github.com/user-attachments/assets/bbafac58-9730-4b3d-aa6a-c58535fc3d37)
+
 By deleting these rules, you have restricted access to these protocols, limiting the potential for unauthorized access attempts and reducing the attack surface of your network.
 
 ### Enable logging
 Enable logging for the remaining firewall rules limit-ports (the rule you created in a previous task) and default-allow-internal.
 
-Enabling logging allows you to track and analyze the traffic that is allowed by this rule, which is likely to be internal traffic between instances within your VPC.
+Network Security - Firewall Policies - VPC Firewall Rules - Rule list panel with **Logs - On** for both rules:
+![60 - Firewall - Logs Enabled](https://github.com/user-attachments/assets/8bfea7f8-42b4-481a-8681-98cace4c217a)
 
-Click Check my progress to verify that you have completed this task correctly.
+Enabling logging allows you to track and analyze the traffic that is allowed by this rule, which is likely to be internal traffic between instances within your VPC.
 
 ## Task 6. Verify compliance
 After diligently addressing the vulnerabilities identified in the PCI DSS 3.2.1 report, it's crucial to verify the effectiveness of your remediation efforts. In this task, you'll run the report again to ensure that the previously identified vulnerabilities have been successfully mitigated and no longer pose a security risk to the environment.
+
+Security Command Center - PCI DSS report after remediation:
+![61 - PCI DSS Report - After Remediation](https://github.com/user-attachments/assets/bf8a0cdb-824e-4a1d-934c-593ad158700a)
 
 All major vulnerabilities are now resolved.
 
