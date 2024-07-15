@@ -236,7 +236,7 @@ Enabling logging allows you to track and analyze the traffic that is allowed by 
 After diligently addressing the vulnerabilities identified in the PCI DSS 3.2.1 report, it's crucial to verify the effectiveness of your remediation efforts. In this task, you'll run the report again to ensure that the previously identified vulnerabilities have been successfully mitigated and no longer pose a security risk to the environment.
 
 Security Command Center - PCI DSS report after remediation:
-![61 - PCI DSS Report - After Remediation](https://github.com/user-attachments/assets/bf8a0cdb-824e-4a1d-934c-593ad158700a)
+![62 - PCI DSS Report - After Remediation](https://github.com/user-attachments/assets/2723e29c-dea8-445f-9244-7e82987f7b58)
 
 All major vulnerabilities are now resolved.
 
