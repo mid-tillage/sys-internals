@@ -7,7 +7,7 @@
 
 🌱 💞️ 
 
-This document is available in [English](https://github.com/mid-tillage/sys-internals) and [Spanish](https://github.com/mid-tillage/sys-internals/README-spanish-md).
+This document is available in [English](https://github.com/mid-tillage/sys-internals) and [Spanish](https://github.com/mid-tillage/sys-internals/blob/main/README-spanish.md).
 
 ----
 # Portfolio
