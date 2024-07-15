@@ -7,10 +7,10 @@
 
 🌱 💞️ 
 
+This document is available in [English](https://github.com/mid-tillage/sys-internals) and [Spanish](https://github.com/mid-tillage/sys-internals/README-spanish-md).
+
 ----
 # Portfolio
-
-This document is available in [English](link-to-english-version) and [Spanish](link-to-spanish-version).
 
 This section highlights a diverse array of projects that I have developed or contributed to, showcasing my skills across different technologies and problem domains. Each project listed here represents a unique challenge or a practical solution designed to address real-world issues. These projects cover various aspects of software engineering, including cybersecurity, store management systems, and machine learning, and are implemented in multiple programming languages to demonstrate versatility and depth of knowledge.
 
