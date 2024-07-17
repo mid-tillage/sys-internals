@@ -5,6 +5,5 @@ This is a personal backup for LLM and AI-associated learning guides.
 
 ## Repositories
 
-- https://github.com/mid-tillage/lg-guide-bkp
-- https://github.com/mid-tillage/pandas_project_bkp
-- https://github.com/mid-tillage/fast_api_bkp
+- LangChain: https://github.com/mid-tillage/lg-guide-bkp
+- Pandas: https://github.com/mid-tillage/pandas_project_bkp
