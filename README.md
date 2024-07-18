@@ -17,7 +17,10 @@ This section highlights a diverse array of projects that I have developed or con
 ## GCP Cybersecurity 
 In this capstone project, I executed a comprehensive cybersecurity simulation on Google Cloud Platform, demonstrating my ability to respond to and mitigate cyber attacks effectively.
 
-[GCP Cybersecurity Certificate Capstone Project](https://github.com/mid-tillage/sys-internals/blob/main/GCP%20Cybersecurity%20Attack%20Response%20Example.md)
+[GCP Cybersecurity Certificate Capstone Project](https://github.com/mid-tillage/sys-internals/blob/main/Google%20Cloud%20Cybersecurity%20Certificate%20-%20Capstone%20Project%20-%20Attack%20Response%20Example.md)
+
+- [Security Incident Report](https://github.com/mid-tillage/sys-internals/blob/main/Google%20Cloud%20Cybersecurity%20Certificate%20-%20Capstone%20Project%20-%20Security%20Incident%20Report.md)
+
 
 
 ## Store system
