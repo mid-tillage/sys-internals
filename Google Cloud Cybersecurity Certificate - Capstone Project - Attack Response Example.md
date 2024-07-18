@@ -1,6 +1,6 @@
 # Google Cloud Cybersecurity - Capstone Project Attack Response
 
-# Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Scenario](#scenario)
