@@ -1,4 +1,4 @@
-# GCP Cybersecurity Attack Response Example
+# Google Cloud Cybersecurity - Capstone Project Attack Response
 
 # Table of Contents
 
