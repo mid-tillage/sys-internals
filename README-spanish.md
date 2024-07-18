@@ -16,7 +16,9 @@ Esta sección destaca una variedad de proyectos en los que he desarrollado o con
 ## Ciberseguridad en GCP
 En este proyecto de fin de carrera, ejecuté una simulación de ciberseguridad integral en Google Cloud Platform, demostrando mi capacidad para responder y mitigar ataques cibernéticos de manera efectiva.
 
-[Proyecto de Fin de Carrera del Certificado de Ciberseguridad de GCP](https://github.com/mid-tillage/sys-internals/blob/main/GCP%20Cybersecurity%20Attack%20Response%20Example.md)
+[Proyecto de Fin de Carrera del Certificado de Ciberseguridad de GCP](https://github.com/mid-tillage/sys-internals/blob/main/Google%20Cloud%20Cybersecurity%20Certificate%20-%20Capstone%20Project%20-%20Attack%20Response%20Example.md)
+
+- [Reporte de Incidente de Seguridad](https://github.com/mid-tillage/sys-internals/blob/main/Google%20Cloud%20Cybersecurity%20Certificate%20-%20Capstone%20Project%20-%20Security%20Incident%20Report.md)
 
 ## Sistema de tienda
 Esta prueba de concepto para un sistema de gestión de tiendas muestra mi capacidad para desarrollar aplicaciones escalables y robustas utilizando una variedad de lenguajes de programación. Cada versión está diseñada para demostrar las fortalezas específicas de cada lenguaje y las capacidades de integración:
