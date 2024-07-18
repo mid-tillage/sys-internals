@@ -1,4 +1,4 @@
-# Google Cloud Cybersecurity - Capstone Project Attack Response
+# GCP Cybersecurity Certificate Capstone Project
 
 ## Table of Contents
 
