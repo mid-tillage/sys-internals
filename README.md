@@ -23,7 +23,7 @@ In this capstone project, I executed a comprehensive cybersecurity simulation on
 
 
 
-## Store system
+## Store System
 This proof of concept for a store management system showcases my ability to develop scalable and robust applications using a variety of programming languages. Each version is tailored to demonstrate specific language strengths and integration capabilities:
 
 In different Languages: [C#](https://github.com/mid-tillage/sys-internals/blob/main/store-cs-project.md), [Go](https://github.com/mid-tillage/sys-internals/blob/main/store-go-project.md), [Java](https://github.com/mid-tillage/sys-internals/blob/main/store-java-project.md), [Python](https://github.com/mid-tillage/sys-internals/blob/main/store-python-project.md), [Ruby](https://github.com/mid-tillage/sys-internals/blob/main/store-ruby-project.md), [Rust](https://github.com/mid-tillage/sys-internals/blob/main/store-rust-project.md), ~~[PHP](https://github.com/mid-tillage/sys-internals/blob/main/store-php-project.md)~~, [Typescript](https://github.com/mid-tillage/sys-internals/blob/main/store-ts-project.md)
@@ -34,6 +34,11 @@ Monitoring: [Prometheus and Grafana](https://github.com/mid-tillage/nestjs-metri
 This section highlights my engagement with machine learning and artificial intelligence through practical exercises featured in an online tutorial series. The exercises cover a range of fundamental and advanced topics, including data preprocessing, model building, and deployment using popular frameworks and libraries in Python. The comprehensive collection of code snippets and detailed explanations demonstrate my grasp on AI concepts and my ability to apply them in real-world scenarios.
 
 [Concepts, frameworks and libraries (Python)](https://github.com/mid-tillage/sys-internals/blob/main/ml-ai-exercises.md)
+
+## Google's Cloud Skill Boost Challenges
+This section showcases my experiences with Google Cloud Platform, where I tackled a series of hands-on challenges to deepen my understanding of cloud computing. These challenges involved tasks such as deploying scalable applications, managing cloud resources, optimizing performance, and securing cloud infrastructure. The projects highlight my ability to design and implement solutions that leverage GCP's suite of services, demonstrating both practical skills and a commitment to mastering cloud technologies.
+
+- [Build Infrastructure with Terraform on Google Cloud](https://github.com/mid-tillage/sys-internals/blob/main/gcp-build-infrastructure-with-terraform-on-google-cloud.md)
 
 
 <!---
