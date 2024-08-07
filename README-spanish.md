@@ -31,3 +31,8 @@ Monitoreo: [Prometheus and Grafana](https://github.com/mid-tillage/nestjs-metric
 Esta sección destaca mi compromiso con el aprendizaje automático y la inteligencia artificial a través de ejercicios prácticos presentados en una serie de tutoriales en línea. Los ejercicios abarcan una gama de temas fundamentales y avanzados, incluyendo la preprocesamiento de datos, construcción de modelos y despliegue utilizando marcos y bibliotecas populares en Python. La colección exhaustiva de fragmentos de código y explicaciones detalladas demuestran mi comprensión de los conceptos de IA y mi capacidad para aplicarlos en escenarios del mundo real.
 
 [Conceptos, marcos y bibliotecas (Python)](https://github.com/mid-tillage/sys-internals/blob/main/ml-ai-exercises.md)
+
+## Desafíos Cloud Skill Boost de Google
+Esta sección muestra mis experiencias con Google Cloud Platform, mediante desafíos prácticos para profundizar mi comprensión de la computación en la nube. Estos desafíos incluyeron tareas como desplegar aplicaciones escalables, gestionar recursos en la nube, optimizar el rendimiento y asegurar la infraestructura en la nube. Los proyectos destacan mi capacidad para diseñar e implementar soluciones que aprovechen el conjunto de servicios de GCP, demostrando tanto habilidades prácticas como un compromiso con el dominio de las tecnologías en la nube.
+
+- [Creación de Infraestructura con Terraform en Google Cloud](https://github.com/mid-tillage/sys-internals/blob/main/gcp-build-infrastructure-with-terraform-on-google-cloud.md)
